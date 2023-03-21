@@ -1,4 +1,4 @@
-# moon texture maps
+# Moon texture maps
 
 
 These model files can be used for the *Shake*Movie repository and moved/linked to:
