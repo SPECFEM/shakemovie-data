@@ -36,17 +36,17 @@ logo size big: 3x bigger
 
 ## Example
 
-**file**: mars_16384.tga.tar.bz2
+**file**: clouds_16384.tga.tar.bz2
 
-- compressed by `tar cvjf mars_16384.tga.tar.bz2 mars_16384.tga`
+- compressed by `tar cvjf clouds_16384.tga.tar.bz2 clouds_16384.tga`
 
-- decompress by `tar xvjf mars_16384.tga.tar.bz2` 
+- decompress by `tar xvjf clouds_16384.tga.tar.bz2` 
 
 
 
 ### Git LFS
 
-Files are stored by [Github LFS](https://git-lfs.github.com). To retrieve the all data, either clone the repository:
+Files are not stored yet by [Github LFS](https://git-lfs.github.com). In case we so in future, to retrieve all data, either clone the repository:
 ```
 $ git clone https://github.com/SPECFEM/shakemovie-maps.git
 ```
@@ -63,7 +63,7 @@ git lfs pull --include "mars/<file>"
 
 or if no git available:
 ```
-wget https://github.com/SPECFEM/shakemovie-maps/blob/main/mars/<file>?raw=true
+wget https://github.com/SPECFEM/shakemovie-data/blob/main/maps/mars/<file>?raw=true
 ```
 
 You might have to uncompress the files you want using the bunzip2 command.
