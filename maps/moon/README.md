@@ -23,7 +23,9 @@ size: variable
    -> store slides as PNG images
 
 1. convert to PGM format with imagemagick convert:
+   ```
    > ./convert_logo.sh
+   ```
 
 logo size small:
 * width x height: 250 x 50
